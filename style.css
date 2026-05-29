@@ -1,0 +1,335 @@
+body{
+   
+   background:
+   linear-gradient(rgb(0, 0, 0),
+   rgba(0,0,0,0.92)),
+
+   url("IMAGENES/banner\ toty.png");
+
+   .navbar{
+
+   background: rgba(0,0,0,0.9);
+
+   border-bottom: 1px solid #00ff88;
+
+   box-shadow: 0 0 20px #00ff88;
+}
+
+.button{
+    background:#00ff88;
+    color:black;
+    padding:15px 30px;
+    text-decoration:none;
+    border-radius:10px;
+    font-weight:bold;
+    transition:0.3s;
+}
+
+.button:hover{
+    background:rgb(0, 255, 170);
+    transform:scale(1.05);
+}
+
+
+
+.button2{
+    background:#0673bb;
+    color:black;
+    padding:15px 30px;
+    text-decoration:none;
+    border-radius:10px;
+    font-weight:bold;
+    transition:0.3s;
+}
+
+.button2:hover{
+    background:rgb(255, 239, 11);
+    transform:scale(1.05);
+}
+
+
+
+
+.button3{
+    background:#0673bb;
+    color:black;
+    padding:15px 30px;
+    text-decoration:none;
+    border-radius:10px;
+    font-weight:bold;
+    transition:0.3s;
+}
+
+.button3:hover{
+    background:rgb(255, 239, 11);
+    transform:scale(1.05);
+}
+
+
+   background-size: cover;
+
+   background-position: center -100px;
+
+   background-repeat: no-repeat;
+
+   height: 100vh;
+
+   color: rgb(9, 255, 0);
+}
+
+.mb-3{
+    background:#111;
+    color:white;
+    border:2px solid #00ff88;
+}
+
+.mb-3:focus{
+    box-shadow:0 0 15px #00ff88;
+    border-color:#00ff88;
+}
+
+.meta-box{
+    text-align:center;
+    margin-top:40px;
+}
+
+.meta-btn{
+    background:#00ff88;
+    color:black;
+    border:none;
+    padding:15px 35px;
+    font-size:20px;
+    font-weight:bold;
+    border-radius:15px;
+    cursor:pointer;
+    transition:0.4s;
+    box-shadow:0 0 15px #00ff88;
+}
+
+.meta-btn:hover{
+    transform:translateY(-5px);
+    box-shadow:
+        0 0 10px #00ff88,
+        0 0 25px #00ff88,
+        0 0 50px #00ff88;
+}
+
+.meta-card{
+    background:#0d0d0d;
+    color:white;
+    max-width:900px;
+    margin:auto;
+    margin-top:25px;
+    padding:30px;
+    border-radius:20px;
+    border:2px solid #00ff88;
+    box-shadow:
+        0 0 15px #00ff88;
+}
+
+.meta-card h2{
+    color:#00ff88;
+    margin-bottom:20px;
+    font-size:35px;
+}
+
+.meta-card p{
+    font-size:18px;
+    line-height:1.8;
+}
+
+.hero{
+    position:relative;
+    height:100vh;
+    overflow:hidden;
+}
+
+/* VIDEO */
+
+#bg-video{
+    position:static;
+    top:0;
+    left:0;
+
+    width:100%;
+    height:auto;
+
+    object-fit:cover;
+
+    z-index:-1;
+}
+
+/* CONTENIDO */
+
+.contenido{
+    position:relative;
+    z-index:2;
+
+    text-align:center;
+
+    padding-top:80px;
+}
+
+/* TÍTULO */
+
+.contenido h1{
+    color:#00ff88;
+    font-size:70px;
+
+    text-shadow:
+        0 0 10px #00ff88,
+        0 0 30px #00ff88;
+}
+
+/* CARDS */
+
+.cards{
+    display:flex;
+    justify-content:center;
+    gap:30px;
+    margin-top:40px;
+    flex-wrap:wrap;
+}
+
+
+
+.card{
+    background:#111 !important;
+    color:white !important;
+
+    border:2px solid #00ff88 !important;
+
+    box-shadow:
+        0 0 15px #00ff88;
+
+    transition:0.4s;
+}
+
+
+.card:hover{
+    transform:translateY(-10px);
+
+    box-shadow:
+        0 0 10px #00ff88,
+        0 0 30px #00ff88,
+        0 0 60px #00ff88;
+}
+
+.contenedor-cards{
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+.card{
+  width: 18rem;
+}
+
+.list-group-item {
+  background: #111;
+  color: white;
+  border: 1px solid #333;
+  transition: all 0.3s ease;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.list-group-item:hover {
+  background: linear-gradient(90deg, rgb(18, 211, 11), #25ce03);
+  color: black;
+  transform: translateX(6px);
+  box-shadow: 0 4px 12px rgba(0, 255, 21, 0.3);
+}
+
+#accordionBalonDeOro {
+  background: #0d0d0d;
+  padding: 15px;
+  border-radius: 15px;
+}
+
+.accordion-item {
+  background: linear-gradient(145deg, #1a1a1a, #0f0f0f);
+  border: 1px solid rgba(255, 215, 0, 0.3);
+  margin-bottom: 12px;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.5);
+}
+
+.accordion-button {
+  background: linear-gradient(90deg, #b8860b, #ffd700);
+  color: black;
+  font-weight: bold;
+  font-size: 16px;
+  transition: all 0.3s ease;
+}
+
+.accordion-button.collapsed {
+  background: linear-gradient(90deg, #2a2a2a, #1a1a1a);
+  color: gold;
+  border-bottom: 1px solid rgba(255, 215, 0, 0.2);
+}
+
+.accordion-button:hover {
+  transform: scale(1.02);
+  box-shadow: 0 0 15px rgba(255, 215, 0, 0.4);
+}
+
+.accordion-body {
+  background: #111;
+  color: #f5f5f5;
+  border-top: 1px solid rgba(255, 215, 0, 0.2);
+  padding: 15px;
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+.accordion-collapse.show {
+  animation: glowGold 0.6s ease-in-out;
+}
+
+@keyframes glowGold {
+  0% {
+    box-shadow: 0 0 0 rgba(255, 215, 0, 0);
+  }
+  50% {
+    box-shadow: 0 0 20px rgba(255, 215, 0, 0.4);
+  }
+  100% {
+    box-shadow: 0 0 0 rgba(255, 215, 0, 0);
+  }
+}
+
+.boton-contacto{
+
+   background: #00ff88;
+
+   color: black;
+
+   padding: 12px 30px;
+
+   border-radius: 10px;
+
+   text-decoration: none;
+
+   font-weight: bold;
+
+   transition: 0.3s;
+
+   box-shadow: 0 0 20px #00ff88;
+}
+
+.boton-contacto:hover{
+
+   background: black;
+
+   color: #00ff88;
+
+   border: 1px solid #00ff88;
+
+   box-shadow: 0 0 30px #00ff88;
+
+   transform: scale(1.05);
+}
